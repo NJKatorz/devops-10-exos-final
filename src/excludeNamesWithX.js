@@ -1,6 +1,7 @@
 module.exports = function (array) {
     if (array.length === 0) return "Table empty";
-    /** const newArray = [];
+    /** Version 1 
+     * const newArray = [];
     const reg = new RegExp("[Xx]+");
     for (let index = 0; index < array.length; index++) {
         const element = array[index];
